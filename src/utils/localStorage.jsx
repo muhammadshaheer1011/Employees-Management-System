@@ -1,10 +1,14 @@
+const basePath = '/Employees-Management-System';  
+
+
+
 export const setLocalStorage = async () => {
 try{
-    const employeeResponse=await fetch('/employees.json');
+    const employeeResponse = await fetch(`${basePath}/employees.json`);
     const employeesData=await employeeResponse.json();
     localStorage.setItem('employees',JSON.stringify(employeesData));
 
-    const adminsResponse=await fetch('/admins.json');
+    const adminsResponse = await fetch(`${basePath}/admins.json`);
     const adminsData=await adminsResponse.json();
     localStorage.setItem('admins',JSON.stringify(adminsData));
 }catch(error){
