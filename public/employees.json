@@ -1,0 +1,204 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Employee 1",
+      "email": "employee1@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 1 for Employee 1",
+          "taskDescription": "Description for task 1",
+          "taskDate": "2025-06-06",
+          "category": "Development"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Task 2 for Employee 1",
+          "taskDescription": "Description for task 2",
+          "taskDate": "2025-06-07",
+          "category": "Testing"
+        }
+      ],
+      "taskCounts": {
+        "active": 2,
+        "newTask": 1,
+        "completed": 1,
+        "failed": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Employee 2",
+      "email": "employee2@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 1 for Employee 2",
+          "taskDescription": "Description for task 1",
+          "taskDate": "2025-06-06",
+          "category": "Design"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Task 2 for Employee 2",
+          "taskDescription": "Description for task 2",
+          "taskDate": "2025-06-08",
+          "category": "Marketing"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Task 3 for Employee 2",
+          "taskDescription": "Description for task 3",
+          "taskDate": "2025-06-09",
+          "category": "Management"
+        }
+      ],
+      "taskCounts": {
+        "active": 2,
+        "newTask": 2,
+        "completed": 1,
+        "failed": 1
+      }
+    },
+    {
+      "id": 3,
+      "name": "Employee 3",
+      "email": "employee3@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 1 for Employee 3",
+          "taskDescription": "Description for task 1",
+          "taskDate": "2025-06-06",
+          "category": "Development"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 2 for Employee 3",
+          "taskDescription": "Description for task 2",
+          "taskDate": "2025-06-07",
+          "category": "Testing"
+        },
+        {
+          "active": true,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Task 3 for Employee 3",
+          "taskDescription": "Description for task 3",
+          "taskDate": "2025-06-08",
+          "category": "Research"
+        }
+      ],
+      "taskCounts": {
+        "active": 3,
+        "newTask": 1,
+        "completed": 1,
+        "failed": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Employee 4",
+      "email": "employee4@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 1 for Employee 4",
+          "taskDescription": "Description for task 1",
+          "taskDate": "2025-06-06",
+          "category": "Support"
+        },
+        {
+          "active": false,
+          "newTask": false,
+          "completed": true,
+          "failed": false,
+          "taskTitle": "Task 2 for Employee 4",
+          "taskDescription": "Description for task 2",
+          "taskDate": "2025-06-07",
+          "category": "Sales"
+        }
+      ],
+      "taskCounts": {
+        "active": 1,
+        "newTask": 1,
+        "completed": 1,
+        "failed": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Employee 5",
+      "email": "employee5@example.com",
+      "password": "123",
+      "tasks": [
+        {
+          "active": true,
+          "newTask": false,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 1 for Employee 5",
+          "taskDescription": "Description for task 1",
+          "taskDate": "2025-06-06",
+          "category": "Human Resources"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": true,
+          "taskTitle": "Task 2 for Employee 5",
+          "taskDescription": "Description for task 2",
+          "taskDate": "2025-06-07",
+          "category": "Admin"
+        },
+        {
+          "active": true,
+          "newTask": true,
+          "completed": false,
+          "failed": false,
+          "taskTitle": "Task 3 for Employee 5",
+          "taskDescription": "Description for task 3",
+          "taskDate": "2025-06-08",
+          "category": "Operations"
+        }
+      ],
+      "taskCounts": {
+        "active": 3,
+        "newTask": 2,
+        "completed": 0,
+        "failed": 1
+      }
+    }
+  ]
+}
